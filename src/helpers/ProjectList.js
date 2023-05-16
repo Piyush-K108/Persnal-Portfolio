@@ -1,23 +1,23 @@
-import Proj1 from "../assets/proj1.jpg";
+import logo from "../assets/logo.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
+import Proj4 from "../assets/proj4.png";
 
 
 export const ProjectList = [
   {
     name: "Epsilon",
-    image: Proj1,
+    image: logo,
     skills: "React-native, Django, Mysql",
   },
   {
     name: "Gamer's Arena",
-    image: Proj2,
+    image: Proj3,
     skills: "Netbens, Mysql",
   },
   {
     name: "Youtube Pipeline",
-    image: Proj3,
+    image: Proj2,
     skills: "YoutubeAPI, Kafka, Python, Aws",
   },
   {

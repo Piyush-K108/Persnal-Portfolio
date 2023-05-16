@@ -11,22 +11,12 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
+  
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="Feb 2022 - May 2022"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            My School
-          </h3>
-          <p> High School Diploma</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2014 - 2018"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             My Cool University, Vancouver, British Columbia
@@ -41,7 +31,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -57,7 +47,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2020 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Full Stack Engineer - Twitch
