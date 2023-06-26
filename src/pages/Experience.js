@@ -38,7 +38,7 @@ function Experience() {
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Python Ddevloper
+          Python Developer
           </h4>
 
           <p> Internship in Python at TechFloric was awesome and that was my
