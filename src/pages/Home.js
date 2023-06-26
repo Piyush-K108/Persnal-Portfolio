@@ -5,15 +5,22 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 function Home() {
+  const email = "gwar619908@gmail.com";
   return (
     <div className="home">
       <div className="about">
         <h2> Hi, My Name is Prashant</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href={"https://www.linkedin.com/in/prashant-khanchandani-163069236/"} target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </a>
+          <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
+        <EmailIcon />
+              </a>
+          <a href={"https://github.com/Piyush-K108"} target="_blank" rel="noopener noreferrer">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -22,7 +29,7 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              React Native 
+              React Native
             </span>
           </li>
           <li className="item">
