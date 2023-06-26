@@ -38,10 +38,10 @@ function Experience() {
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Python Traning
+            Python Ddevloper
           </h4>
 
-          <p> Training in Python at TechFloric was awesome and that was my
+          <p> Internship in Python at TechFloric was awesome and that was my
               first composer to how the Software Industry works and what the
               chain of command looks like with the great environment
               </p>
